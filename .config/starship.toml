@@ -1,0 +1,22 @@
+add_newline = false
+
+format = '''
+╭─── $username$directory
+╰─$status '''
+
+right_format = '$git_branch$git_commit$git_state$git_metrics$git_status'
+
+[username]
+format = '[$user]($style) '
+style_user = 'green bold'
+style_root = 'red bold'
+show_always = true
+
+[status]
+format = '[$symbol]($style)'
+symbol = "[❯](bold red)"
+success_symbol = "[❯](bold green)"
+disabled = false
+
+[git_branch]
+format = '[$symbol$branch(:$remote_branch)]($style)'
