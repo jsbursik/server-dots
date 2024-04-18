@@ -5,6 +5,8 @@ setopt PUSHD_SILENT
 
 bindkey -e
 
+. ~/.scripts/z/z.sh
+
 zstyle :compinstall filename '/home/jordan/.confg/zsh/.zshrc'
 
 autoload -Uz compinit

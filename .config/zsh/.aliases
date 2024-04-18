@@ -3,4 +3,7 @@ for index ({1..9}) alias "$index"="cd +${index}"; unset index
 
 alias ls="ls --color=auto -h --group-directories-first"
 alias grep="grep --color=auto"
-alias sc="nano ~/.config/starship.toml"
+alias starconf="nano ~/.config/starship.toml"
+alias zshr="nano ~/.config/zsh/.zshrc"
+alias zsha="nano ~/.config/zsh/.aiases"
+alias zshe="nano ~/.zshenv"
